@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+    <student name="Иванов Иван Иванович">
+        <subject name="математика">67</subject>
+        <subject name="литература">100</subject>
+        <subject name="программирование">91</subject>
+    </student>
+    <student name="Петров Петр Петрович">
+        <subject name="математика">78</subject>
+        <subject name="химия">87</subject>
+        <subject name="социология">61</subject>
+    </student>
+    <student name="Сидоров Сидор Сидорович">
+        <subject name="математика">45</subject>
+        <subject name="физика">58</subject>
+        <subject name="история">80</subject>
+    </student>
+    <student name="Кузнецова Анна Сергеевна">
+        <subject name="математика">50</subject>
+        <subject name="химия">40</subject>
+        <subject name="биология">30</subject>
+    </student>
+    <student name="Смирнов Олег Игоревич">
+        <subject name="программирование">60</subject>
+        <subject name="английский язык">55</subject>
+    </student>
+</root>
