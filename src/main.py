@@ -3,6 +3,7 @@ import argparse
 import os
 import sys
 
+from CalcDebtors import CalcDebtors
 from CalcRating import CalcRating
 from DataReader import DataReader
 from TextDataReader import TextDataReader
@@ -38,6 +39,9 @@ def main():
 
     rating = CalcRating(students).calc()
     print("Rating: ", rating)
+
+    debtors = CalcDebtors(students).calc()
+    print("Students with debts in exactly two subjects: ", debtors)
 
 
 if __name__ == "__main__":
