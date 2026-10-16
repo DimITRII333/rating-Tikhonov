@@ -6,15 +6,6 @@ from DataReader import DataReader
 
 
 class XMLDataReader(DataReader):
-    """Чтение данных о студентах из XML-файла.
-
-    Ожидаемый формат:
-        <root>
-            <student name="Иванов Иван Иванович">
-                <subject name="математика">67</subject>
-            </student>
-        </root>
-    """
 
     STUDENT_TAG = "student"
     SUBJECT_TAG = "subject"
