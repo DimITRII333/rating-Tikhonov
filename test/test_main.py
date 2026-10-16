@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 from src.main import get_path_from_arguments, get_reader, main
 from TextDataReader import TextDataReader
 from XMLDataReader import XMLDataReader

@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 from Types import DataType
 from DataReader import DataReader
 
